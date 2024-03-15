@@ -454,6 +454,9 @@ max-width: 120px;
   margin: 0 auto;
   position: relative;
   top: -350px;
+  background-image: url("https://i.ibb.co/yYrn1nP/Untitled-design-20240315-090547-0000.png");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .prices{

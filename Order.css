@@ -6,7 +6,7 @@ font-family: 'poppins', sans-serif;
 }
 
 body{
-  background-color: rgba(0,0,0,.9);
+  background-color: rgb(0,0,0);
 }
 
 header {
@@ -48,6 +48,19 @@ header {
     border-radius:20px;
 }
 
+  .oimg{
+    max-width: 400px;
+    min-width: 200px;
+    max-height: 300px;
+    min-height: 100px;
+    margin: 0 auto;
+  }
+  
+  #image{
+    max-width: 400px;
+    min-width: 200px;
+  }
+
 
 .container{
 width: 100%;
@@ -59,7 +72,8 @@ justify-content: center;
 
 
 form{
-background: black;
+background-image: url("https://i.ibb.co/W0vMs3S/Picsart-24-03-15-07-31-56-995.jpg");
+background-size: cover;
 display: flex;
 flex-direction: column;
 padding: 2vw 4Vw;
@@ -73,7 +87,7 @@ font-weight:800;
 margin-bottom: 20px;
 font-family: 'Rubik', sans-serif;
 color: white;
-background: black;
+background: ;
 }
 
 form h4{
@@ -81,7 +95,7 @@ font-weight:800;
 margin-bottom: 20px;
 font-family: 'Rubik', sans-serif;
 color: white;
-background: black;
+background: ;
 }
 
 form input, form textarea{
@@ -97,7 +111,7 @@ border-radius: 12px;
 
 form button{
 padding: 15px;
-background-color: #ff6b4a;
+background-color: white;
 font-size:18px;
 border: 0;
 outline: none;
@@ -120,7 +134,26 @@ color: white;
   display: none;
 }
 
-@media screen and ( width < 488px) {
+
+
+
+
+@media screen and ( width < 700px) {
+  
+  
+  .oimg{
+    max-width: 300px;
+    min-width: 100px;
+    max-height: 300px;
+    min-height: 100px;
+    margin: 0 auto;
+  }
+  
+  #image{
+    max-width: 300px;
+    min-width: 100px;
+    position: relative;
+  }
   
   
 .contaner1 {
