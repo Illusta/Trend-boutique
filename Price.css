@@ -11,12 +11,13 @@ body{
 
 header {
     background-color:  rgba(0,0,0,.4);
-    padding: 20px 0;
+    padding: 30px 0px;
     width: 580px;
     height: 30px;
     display: flex;
     align-items: center;
-  margin: 20px 0px 20px 820px;
+  margin: 40px 0px 20px 0px;
+  float: right;
     border-top-left-radius: 40px;
     border-bottom-left-radius: 40px;
     position: relative;
@@ -59,10 +60,55 @@ header {
   margin: 0 auto;
   max-width: 688px;
   min-width: 88px;
-  display: float;
+  display: flex;
   position: relative;
-  top: -230px;
-  z-index: -1;
+  top: 200px;
+  z-index: -2;
+}
+
+.dis21{
+  color: white;
+  font-size: 20px;
+  font-family: 'rubik',sans-serif;
+  position: relative;
+  margin: 0 auto;
+  top: 75px;
+  width: 180px;
+}
+
+.dis22{
+  color: white;
+  font-size: 17px;
+  font-family: 'rubik',sans-serif;
+  position: relative;
+  margin: 0 auto;
+  top: 80px;
+  width: 380px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.bg1{
+  max-width: 580px;
+  min-width: 50px;
+  z-index: -2;
+  opacity: 70%;
+  position: relative;
+  top: -1050px;
+  left: 250px;
+}
+
+.bg2{
+  max-width: 500px;
+  min-width: 50px;
+  z-index: -2;
+  opacity: 70%;
+  position: absolute;
+  top: 1090px;
+  left: 80px;
+  z-index: -3;
+  transform: rotate(90deg);
 }
 
 
@@ -70,10 +116,13 @@ header {
   width: 600px;
   text-align: center;
   font-size: 10px;
-margin: 100px auto;
 display: flex;
 justify-content: center;
 color: white;
+margin: 100px auto;
+position: relative;
+top: -270px;
+font-size: 15px;
 }
 
 
@@ -82,6 +131,7 @@ background: #212121;
 padding:30px 0px;
 font-family: 'Play', sans-serif;
 text-align:center;
+margin-top: -270px;
 }
 
 .footer .row{
@@ -116,6 +166,13 @@ font-size:2em;
 margin:0% 1%;
 }
 
+
+.toggle .pp{
+  background-color: rgba(255,255,255,.6);
+  color: black;
+}
+
+
 @media (max-width:720px){
   
 .footer{
@@ -130,6 +187,11 @@ text-align:left;
 .footer .row a i{
 margin:0% 3%;
 }
+}
+
+.toggle .pp{
+  background-color: rgba(255,255,255,.6);
+  color: black;
 }
 
 
@@ -220,7 +282,7 @@ header {
     padding: 12px 0;
     min-width: 100px;
     max-width: 1000px;
-    height: 10px;
+    height: 40px;
     top: -40px;
     display: table-cell;
     justify-content: center;
@@ -247,7 +309,7 @@ header {
     margin-left: 40px;
     position: relative;
     top: -3px;
-    left: 0px;
+    left: 100px;
     opacity: 0%;
     z-index: -1;
 }

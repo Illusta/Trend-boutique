@@ -17,7 +17,7 @@ body {
 
 #imgg{
   position: relative;
-  top: -270px;
+  top: -200px;
   z-index: -1;
   min-width: 489px;
   max-width: 1700px;
@@ -32,13 +32,14 @@ body {
 
 
 header {
-    background-color:  rgba(0,0,0,.4);
+    background-color:  rgba(0, 0, 0, 0.4);
     padding: 20px 0;
     width: 580px;
     height: 30px;
     display: flex;
     align-items: center;
-  margin: 20px 0px 20px 820px;
+  margin: 40px 0px 20px 0px;
+  float: right;
     border-top-left-radius: 40px;
     border-bottom-left-radius: 40px;
     position: relative;
@@ -52,13 +53,13 @@ header {
 
 .toggle ul {
     list-style: none;
-    margin: 0;
+    margin-left: 0;
     padding: 0;
 }
 
 .toggle {
-    display: inline-block;
-    margin-left: 40px;
+  display: inline-block;
+  margin-left: 50px;
 }
 
 .toggle a {
@@ -78,19 +79,29 @@ main {
   margin-left: 20px;
 }
 
+.toggle .hh{
+  background-color: rgba(255,255,255,.6);
+  color: black;
+}
+
+
 .perha{
   color: white;
-  font-size: 25px;
+  font-size: 17px;
   position: relative;
-  top: -800px;
-  left: 350px;
+  top: -420px;
+margin:0 auto;
   display: inline;
   text-align: center;
 font-family: 'rubik', sans-serif;
+
 }
 
 .perha p{
-  width: 750px;
+  width: 720px;
+  position: relative;
+  left: 0px;
+  margin: 0 auto;
 }
 
 .btn button {
@@ -103,9 +114,143 @@ font-family: 'rubik', sans-serif;
     border: none;
     cursor: pointer;
     position: relative;
-    left: 620px;
-    top: 1150px;
+    margin: 0 auto;
 }
+
+.btn{
+  margin: 0 auto;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -390px;
+}
+
+
+
+
+.content{
+  position: relative;
+  top: -160px;
+  height: 230px;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+.dishead{
+  color: white;
+  position: relative;
+  margin: 0 auto;
+  top: -490px;
+  left: 0px;
+  font-size: 35px;
+   font-family: 'rubik',sans-serif;
+  display: flex;
+  justify-content: center;
+  max-width: 660px;
+}
+
+.dis1{
+  color: white;
+  font-size: 22px;
+  font-family: 'rubik',sans-serif;
+  position: relative;
+  margin: 0 auto;
+  top: -280px;
+  left: -227px;
+  width: 350px;
+}
+
+.dis2{
+  color: white;
+  font-size: 19px;
+  font-family: 'rubik',sans-serif;
+  position: relative;
+  margin: 0 auto;
+  top: -290px;
+  left: -200px;
+  width: 400px;
+}
+
+.dis21{
+  color: white;
+  font-size: 22px;
+  font-family: 'rubik',sans-serif;
+  position: relative;
+  margin: 0 auto;
+  top: -100px;
+  left: 290px;
+  width: 200px;
+}
+
+.dis22{
+  color: white;
+  font-size: 19px;
+  font-family: 'rubik',sans-serif;
+  position: relative;
+  margin: 0 auto;
+  top: -100px;
+  left: 190px;
+  width: 400px;
+  text-align: right;
+}
+
+#disimg1{
+  width: 320px;
+  border-radius: 12px;
+  position: relative;
+  top: 0%;
+  right: -110px;
+float: right;
+  z-index: 1;
+
+}
+
+#disimg2{
+  width: 320px;
+  border-radius: 12px;
+  position: relative;
+  top: 0%;
+  left: -110px;
+float: left;
+  z-index: 1;
+}
+
+.images{
+  z-index: -1;
+  height: 600px;
+  width: 600px;
+  margin: 0 auto;
+  position: relative;
+  top: -700px;
+  background-image: url("https://i.ibb.co/yYrn1nP/Untitled-design-20240315-090547-0000.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.prices{
+  margin: 0 auto;
+  max-width: 688px;
+  min-width: 88px;
+  display: flex;
+  position: relative;
+  top: -520px;
+  z-index: -1;
+  margin-bottom: -400px;
+}
+
+
+
+
+
+
+
+
+
 
 #check{
   display: none;
@@ -281,7 +426,7 @@ header {
     padding: 12px 0;
     min-width: 100px;
     max-width: 1000px;
-    height: 10px;
+    height: 15px;
     top: -40px;
     display: table-cell;
     justify-content: center;
@@ -307,8 +452,8 @@ header {
     display: inline-block;
     margin-left: 40px;
     position: relative;
-    top: -3px;
-    left: 0px;
+    top: -19px;
+    left: 100px;
     opacity: 0%;
     z-index: -1;
 }
@@ -377,6 +522,7 @@ max-width: 120px;
   font-family: 'rubik',sans-serif;
   position: relative;
   margin: 0 auto;
+  font-size: 16px;
   top: -100px;
   left: 0px;
   display: flex;
@@ -433,7 +579,7 @@ max-width: 120px;
   border-radius: 12px;
   position: relative;
  top: 10px;
-  left: 200px;
+  left: 0px;
   z-index: 1;
 
 }
@@ -443,7 +589,7 @@ max-width: 120px;
   border-radius: 12px;
   position: relative;
   top: 170px;
-  left: -110px;
+  left: 0px;
   z-index: 1;
 }
 
