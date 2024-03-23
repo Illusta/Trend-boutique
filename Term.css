@@ -11,15 +11,16 @@ body{
 
 header {
     background-color:  rgba(0,0,0,.4);
-    padding: 20px 0;
+    padding: 30px 0px;
     width: 580px;
-    height: 30px;
+    height: 0px;
     display: flex;
     align-items: center;
-  margin: 20px 0px 20px 820px;
+  margin: 40px 0px 0px 0px;
     border-top-left-radius: 40px;
     border-bottom-left-radius: 40px;
-    position: relative;
+    position: absolute;
+ right: 0px;
 }
 
     
@@ -55,16 +56,190 @@ header {
 }
 
 
-  .prices{
-  margin: 0 auto;
-  max-width: 688px;
-  min-width: 88px;
-  display: float;
+ .point1{
+  color: white;
+  font-size: 19px;
+  font-family: 'rubik',sans-serif;
   position: relative;
-  top: -230px;
-  z-index: -1;
+  margin: 0px auto;
+  top: 190px;
+  left: 0px;
+  width: 187px;
+  display: flex;
+  justify-content: center;
 }
 
+.point11{
+  color: white;
+  font-size: 17px;
+  font-family: 'rubik',sans-serif;
+  position: relative;
+  margin: 0 auto;
+  top: 200px;
+  left: 0px;
+  width: 750px;
+  height: 150px;
+  text-align: center;
+ display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+
+.point2{
+  color: white;
+  font-size: 19px;
+  font-family: 'rubik',sans-serif;
+  position: relative;
+  margin: 0 auto;
+  top: 160px;
+  left: 0px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.point22{
+  color: white;
+  font-size: 17px;
+  font-family: 'rubik',sans-serif;
+  position: relative;
+  margin: 0 auto;
+  top: 160px;
+  left: 0px;
+  width: 750px;
+  text-align: center;
+}
+
+.point3{
+  color: white;
+  font-size: 19px;
+  font-family: 'rubik',sans-serif;
+  position: relative;
+  margin: 0 auto;
+  top: 190px;
+  left: 0px;
+  width: 187px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.point33{
+  color: white;
+  font-size: 17px;
+  font-family: 'rubik',sans-serif;
+  position: relative;
+  margin: 0 auto;
+  top: 190px;
+  left: 0px;
+  width: 750px;
+  text-align: center;
+}
+
+.point4{
+  color: white;
+  font-size: 19px;
+  font-family: 'rubik',sans-serif;
+  position: relative;
+  margin: 0 auto;
+  top: 220px;
+  left: 0px;
+  width: 187px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.point44{
+  color: white;
+  font-size: 17px;
+  font-family: 'rubik',sans-serif;
+  position: relative;
+  margin: 0 auto;
+  top: 220px;
+  left: 0px;
+  width: 750px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.point5{
+  color: white;
+  font-size: 19px;
+  font-family: 'rubik',sans-serif;
+  position: relative;
+  margin: 0 auto;
+  top: 250px;
+  left: 0px;
+  width: 187px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.point55{
+  color: white;
+  font-size: 17px;
+  font-family: 'rubik',sans-serif;
+  position: relative;
+  margin: 0 auto;
+  top: 250px;
+  left: 0px;
+  width: 750px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.point6{
+  color: white;
+  font-size: 19px;
+  font-family: 'rubik',sans-serif;
+  position: relative;
+  margin: 0 auto;
+  top: 280px;
+  left: 0px;
+  width: 187px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.point66{
+  color: white;
+  font-size: 17px;
+  font-family: 'rubik',sans-serif;
+  position: relative;
+  margin: 0 auto;
+  top: 280px;
+  left: 0px;
+  width: 750px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+
+
+.point7{
+  color: white;
+  font-size: 11px;
+  font-family: 'rubik',sans-serif;
+  position: relative;
+  margin: 0 auto;
+  top: 350px;
+  left: 0px;
+  width: 187px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 500px;
+}
+
+.point7 a{
+  color: rgba(255,255,255, .7);
+  text-decoration: underline;
+}
+ 
+ 
 
 .Notice{
   width: 600px;
@@ -283,6 +458,7 @@ header {
   left: 0px;
   width: 280px;
   text-align: center;
+  margin-bottom: 80px;
 }
 
 

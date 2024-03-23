@@ -11,14 +11,13 @@ body{
 
 header {
     background-color:  rgba(0,0,0,.4);
-    padding: 30px 0;
+    padding: 30px 0px;
     width: 580px;
     height: 30px;
     display: flex;
     align-items: center;
-  margin: 0px 0px 20px 0px;
+  margin: 40px 0px 20px 0px;
   float: right;
-  margin-top: 50px;
     border-top-left-radius: 40px;
     border-bottom-left-radius: 40px;
     position: relative;
@@ -50,122 +49,89 @@ header {
     border-radius:20px;
 }
 
-  .oimg{
-    max-width: 400px;
-    min-width: 200px;
-    max-height: 300px;
-    min-height: 100px;
-    margin: 0 auto;
-  }
-  
-  #image{
-    max-width: 400px;
-    min-width: 200px;
-  }
-
-
-.container{
-width: 100%;
-height: 100%;
-margin: 100px auto;
-margin-top: 200px;
-display: flex;
-justify-content: center;
+ 
+    
+#check{
+  display: none;
 }
 
 
-form{
-background-image: url("https://i.ibb.co/W0vMs3S/Picsart-24-03-15-07-31-56-995.jpg");
-background-size: cover;
-display: flex;
-flex-direction: column;
-padding: 2vw 4Vw;
-width: 90%;
-max-width: 600px;
-border-radius: 10px;
+  .prices{
+  margin: 0 auto;
+  max-width: 688px;
+  min-width: 88px;
+  display: flex;
+  position: relative;
+  top: 200px;
+  z-index: -2;
 }
 
-form h3{
-font-weight:800;
-margin-bottom: 20px;
-font-family: 'Rubik', sans-serif;
-color: white;
+.dis21{
+  color: white;
+  font-size: 20px;
+  font-family: 'rubik',sans-serif;
+  position: relative;
+  margin: 0 auto;
+  top: 75px;
+  width: 180px;
 }
 
-form h4{
-font-weight:800;
-margin-bottom: 20px;
-font-family: 'Rubik', sans-serif;
-color: white;
+.dis22{
+  color: white;
+  font-size: 17px;
+  font-family: 'rubik',sans-serif;
+  position: relative;
+  margin: 0 auto;
+  top: 80px;
+  width: 380px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
-form input, form textarea{
-border: 0px;
-margin: 10px 0;
-padding: 20px;
-outline: none;
-background-color: white;
-font-size: 16px;
-border-radius: 12px;
+.bg1{
+  max-width: 580px;
+  min-width: 50px;
+  z-index: -2;
+  opacity: 70%;
+  position: relative;
+  top: -1050px;
+  left: 250px;
 }
 
-.toggle .oo{
-  background-color: rgba(255,255,255,.6);
-  color: black;
+.bg2{
+  max-width: 500px;
+  min-width: 50px;
+  z-index: -2;
+  opacity: 70%;
+  position: absolute;
+  top: 1090px;
+  left: 80px;
+  z-index: -3;
+  transform: rotate(90deg);
 }
 
-
-
-form button{
-padding: 15px;
-background-color: white;
-font-size:18px;
-border: 0;
-outline: none;
-width: 150px;
-margin: 20px auto 0;
-border-radius: 30px;
-}
 
 .Notice{
   width: 600px;
   text-align: center;
   font-size: 10px;
-margin: 100px auto;
 display: flex;
 justify-content: center;
 color: white;
+margin: 100px auto;
+position: relative;
+top: -270px;
+font-size: 15px;
 }
 
-  #check{
-  display: none;
-}
-
-.point7{
-  color: white;
-  font-size: 11px;
-  font-family: 'rubik',sans-serif;
-  position: relative;
-  margin: 0 auto;
-  top: 0px;
-  left: 0px;
-  width: 187px;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 100px;
-}
-
-
-.point7 a{
-  color: rgba(255,255,255, .7);
-  text-decoration: underline;
-}
 
 .footer{
 background: #212121;
 padding:30px 0px;
 font-family: 'Play', sans-serif;
 text-align:center;
+margin-top: -270px;
 }
 
 .footer .row{
@@ -200,6 +166,13 @@ font-size:2em;
 margin:0% 1%;
 }
 
+
+.toggle .pp{
+  background-color: rgba(255,255,255,.6);
+  color: black;
+}
+
+
 @media (max-width:720px){
   
 .footer{
@@ -216,24 +189,28 @@ margin:0% 3%;
 }
 }
 
+.toggle .pp{
+  background-color: rgba(255,255,255,.6);
+  color: black;
+}
+
+
 @media screen and ( width < 700px) {
   
+   .footer{
+   margin-top: -200px;
+   padding-bottom: 72px;
+ }
   
-  .oimg{
-    max-width: 300px;
-    min-width: 100px;
-    max-height: 300px;
-    min-height: 100px;
-    margin: 0 auto;
-  }
-  
-  #image{
-    max-width: 300px;
-    min-width: 100px;
-    position: relative;
-    z-index: -2;
-  }
-  
+  .prices{
+  margin: 0 auto;
+  max-width: 390px;
+  min-width: 88px;
+  display: float;
+  position: relative;
+  top: 60px;
+  z-index: -1;
+}
   
 .contaner1 {
   display: flex;
@@ -305,7 +282,7 @@ header {
     padding: 12px 0;
     min-width: 100px;
     max-width: 1000px;
-    height: 15px;
+    height: 40px;
     top: -40px;
     display: table-cell;
     justify-content: center;
@@ -338,7 +315,7 @@ header {
 }
 
 
-.toggle .oo{
+.toggle .pp{
   background-color: rgba(255,255,255,.6);
   color: black;
 }
@@ -347,36 +324,63 @@ header {
   margin-top: 20px;
 }
 
-.point7{
+
+
+.dis21{
   color: white;
-  font-size: 11px;
+  font-size: 12px;
   font-family: 'rubik',sans-serif;
   position: relative;
   margin: 0 auto;
-  top: 0px;
-  left: 0px;
-  width: 187px;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 100px;
+  top: 25px;
+  left: -110px;
+  width: 100px;
 }
 
-
-.point7 a{
-  color: rgba(255,255,255, .7);
-  text-decoration: underline;
+.dis22{
+  color: white;
+  font-size: 12px;
+  font-family: 'rubik',sans-serif;
+  position: relative;
+  margin: 0 auto;
+  top: 30px;
+  left: -20px;
+  width: 280px;
+  text-align: left;
 }
 
+.bg1{
+  max-width: 380px;
+  min-width: 50px;
+  z-index: -2;
+  opacity: 70%;
+  position: relative;
+  top: -700px;
+  left: -50px;
+}
+
+.bg2{
+  max-width: 300px;
+  min-width: 50px;
+  z-index: -2;
+  opacity: 70%;
+  position: absolute;
+  top: 600px;
+  left: 80px;
+}
 
   .Notice{
   width: 300px;
   text-align: center;
   font-size: 10px;
-margin: -70px auto;
-display: flex;
+margin: 0 auto;
+display: inline;
 justify-content: center;
-margin-bottom: 50px;
-}
-   
+position: absolute;
+    left: 50px;
+    top: 650px;
+  }
+
+
 
 }
