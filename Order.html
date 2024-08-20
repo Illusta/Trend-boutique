@@ -61,8 +61,23 @@ value="">
 <input type="email" id="email" name="email" placeholder="Email id" required>
 <input type="tel" id="phone" name="phone" placeholder="Phone no." required>
 
-<textarea id="message" rows="4" name="Language" placeholder="Enter your language">
-</textarea>
+<input type="text" id="message" rows="4" name="Language" placeholder="Enter your language">
+</input>
+
+<div class="expandable">
+  <div class="expandable-header" onclick="toggleOptions()">Select Your Suit Type</div>
+  <div class="expandable-content" id="options">
+    <label><input type="checkbox" name="options" value="Option 1"> Simple Suit</label>
+    <label><input type="checkbox" name="options" value="Option 2"> Lining Suit</label>
+    <label><input type="checkbox" name="options" value="Option 3"> Lining Shirt + Simple Bottom</label>
+    <label><input type="checkbox" name="options" value="Option 4"> Simple Shirt + Lining Bottom</label>
+    <label><input type="checkbox" name="options" value="Option 5"> Simple Shirt</label>
+    <label><input type="checkbox" name="options" value="Option 6"> Lining Shirt</label>
+    <label><input type="checkbox" name="options" value="Option 7"> Simple Bottom</label>
+    <label><input type="checkbox" name="options" value="Option 8"> Lining Bottom</label>
+    <label><input type="checkbox" name="options" value="Option 9"> Lace per Layer</label>
+  </div>
+</div>
 
 <button type="submit">Send</button>
 </form></div>

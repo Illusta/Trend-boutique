@@ -63,7 +63,37 @@ header {
     min-width: 200px;
   }
 
+.expandable {
+  margin: 10px 0;
+}
 
+.expandable-header {
+  background-color: white;
+  color: gray;
+  padding: 20px;
+  cursor: pointer;
+  border-radius: 12px;
+  
+}
+
+.expandable-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  padding: 0 10px;
+  background-color: white;
+  border-radius: 12px;
+  margin-top: 5px;
+}
+
+.expandable-content label {
+  display: block;
+  margin: 5px 0;
+}
+
+.expandable-content input[type="checkbox"] {
+  margin-right: 10px;
+}
 .container{
 width: 100%;
 height: 100%;
